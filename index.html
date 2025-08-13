@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hakimo Abdikadir Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+<!-- HERO Section -->
+<section class="hero">
+   <div class="tech-icons">
+   <span>💻</span>
+    <span>&lt;/&gt;</span>
+    <span>⚡</span>
+    <span>🛠️</span>
+    <span>🌐</span>
+    <span>📱</span>
+    <span>🎨</span>
+    <span>🔧</span>
+    <span>☁️</span>
+    <span>🖥️</span>
+    <span>⌨️</span>
+    <span>🔒</span>
+  </div>
+
+  <h1><span id="typed-text"></span><span class="cursor">|</span></h1>
+  <h2>Web Developer | Designer</h2>
+  <div class="hero-buttons">
+  <button class="btn-hero about-btn" onclick="document.getElementById('intro').scrollIntoView({behavior: 'smooth'})">About Me <span>↓</span></button>
+  <button class="btn-hero skills-btn" onclick="document.getElementById('skills').scrollIntoView({behavior: 'smooth'})">Skills <span>↓</span></button>
+  <button class="btn-hero projects-btn" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">Projects <span>↓</span></button>
+ </div>
+  
+</section>
+
+<!-- INTRO Section -->
+<section id="intro">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Profile Picture -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <div class="avatar">&lt;/&gt;</div>
+      </div>
+      <!-- Name and About -->
+      <div class="col-md-8">
+        <h1 class="typing-container">
+          Hakimo Abdikadir 
+        </h1>
+        <p class="other-element">Web Developer | Designer</p>
+        <div class="about-me">
+          <p>Hello, I’m <strong>Hakimo Abdikadir Abdinoor</strong> — a passionate and detail-oriented Web Developer and Designer based in Nairobi, Kenya. I hold a degree in Computer Information Systems from Kenya Methodist University and have experience in both web development and customer support.</p>
+          <p>I specialize in building responsive, user-friendly websites using technologies like <strong>HTML, CSS, JavaScript, React, Django, Flask</strong>, and <strong>WordPress</strong>. I also have experience with backend development, web scraping, and graphic design.</p>
+          <p>Beyond development, I’m passionate about mentorship and using tech to empower communities. I speak English, Kiswahili, and Somali, which helps me connect with diverse audiences.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div>HTML5 & CSS3</div>
+      <div>JavaScript (ES6+)</div>
+      <div>React.js</div>
+      <div>Python & Django</div>
+      <div>Flask</div>
+      <div>WordPress</div>
+      <div>Backend Development</div>
+      <div>Web Scraping</div>
+      <div>Graphic Design</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Charity Website</h3>
+        <p>Built a responsive website for a Muslim charity organization, including donation and project management features.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Designed and developed my own personal portfolio with modern animations and responsive layout.</p>
+      </div>
+      <div class="card">
+        <h3>Web Scraper Tool</h3>
+        <p>Created a Python-based scraper to automate data extraction from e-commerce platforms for analytics.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Hakimo Abdikadir. All rights reserved.
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
